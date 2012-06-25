@@ -1,3 +1,4 @@
+@GrabResolver('http://repository.jboss.org/nexus/content/groups/public/')
 @Grapes([
   @Grab('org.jboss.resteasy:resteasy-jackson-provider:2.3.4.Final'),
   @Grab('org.jboss.resteasy:resteasy-netty:2.3.4.Final'),

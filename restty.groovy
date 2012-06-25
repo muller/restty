@@ -1,4 +1,5 @@
 @Grab('org.jboss.resteasy:resteasy-netty:2.3.4.Final')
+@GrabResolver('http://repository.jboss.org/nexus/content/groups/public/')
 class Grababbles { }
 
 def deployment = new org.jboss.resteasy.spi.ResteasyDeployment(resources: [ new Restty() ])
